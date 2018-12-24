@@ -7,6 +7,11 @@ namespace data_structures_and_algorithms
     {
         static void Main(string[] args)
         {
+            testLinkedList();
+        }
+
+        static void testLinkedList()
+        {
             LinkedList testList = new LinkedList();
 
             for (int i = 0; i < 10; i++)
